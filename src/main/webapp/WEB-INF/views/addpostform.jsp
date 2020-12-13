@@ -24,7 +24,11 @@
 				<td><input type="text" name="title" /></td>
 			</tr>
 			<tr>
-				<td id="definition">글쓴이</td>
+				<td id="definition">사진 URL</td>
+				<td><input type="text" name="photourl" /></td>
+			</tr>
+			<tr>
+				<td id="definition">가격</td>
 				<td><input type="text" name="writer" /></td>
 			</tr>
 			<tr>
