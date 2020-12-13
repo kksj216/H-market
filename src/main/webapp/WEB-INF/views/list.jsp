@@ -111,7 +111,7 @@ background-color: orange;
 	<div class="jumbotron">
 		<div class="container text-center">
 			<h1>H:Market</h1>
-			<p>한동 중고로운 평화나라</p>
+			<p>한동 평화로운 중고나라</p>
 		</div>
 	</div>
 
@@ -152,12 +152,12 @@ background-color: orange;
 
 							<div class="panel-heading">${u.seq}</div>
 							<div class="panel-heading">${u.title}</div>
-							<div class="panel-body">
-								<img src=${u.photourl} class="img-responsive" style="width: 100%" alt="Image"/>
+							<div class="panel-body" style="box-sizing: border-box; width: 300px; height : 300px ;">
+								<img src=${u.photourl} style="box-sizing: border-box; width: 250px; height : 250px ;"/>
 							</div>
-							<div class="panel-footer">${u.category}</div>
-							<div class="panel-footer">${u.writer}</div>
-							<div class="panel-footer">${u.content}</div>
+							<div class="panel-footer">상품명 : ${u.category}</div>
+							<div class="panel-footer">가격 : ${u.writer}</div>
+							<div class="panel-footer" style="box-sizing: border-box; height : 100px ;">비고 : ${u.content}</div>
 							<div class="panel-footer">${u.regdate}</div>
 							<div class="panel-footer">
 								<div id="buttonArea">

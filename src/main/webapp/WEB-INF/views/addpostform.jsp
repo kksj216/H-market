@@ -16,7 +16,7 @@
 	<form action="addok" method="post">
 		<table id="list">
 			<tr>
-				<td id="definition">카테고리</td>
+				<td id="definition">상품명</td>
 				<td><input type="text" name="category" /></td>
 			</tr>
 			<tr>
